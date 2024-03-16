@@ -1,0 +1,51 @@
+[[None, None, None, None, Some(Operational), Some(Damaged), Some(Damaged)]]
+[[1, 2]]
+[None, None, None, None, Some(Operational), Some(Damaged), Some(Damaged)] [1, 2] 0
+[None, None, None, Some(Operational), Some(Damaged), Some(Damaged)] [1, 2] 1
+[None, None, Some(Operational), Some(Damaged), Some(Damaged)] [2] 0
+[None, Some(Operational), Some(Damaged), Some(Damaged)] [2] 1
+[Some(Operational), Some(Damaged), Some(Damaged)] [2] 2
+[Some(Damaged), Some(Damaged)] [] 0
+Returned 0
+[Some(Operational), Some(Damaged), Some(Damaged)] [2] 0
+[Some(Damaged), Some(Damaged)] [2] 0
+[Some(Damaged)] [2] 1
+[] [2] 2
+Returned 1
+[None, Some(Operational), Some(Damaged), Some(Damaged)] [2] 0
+[Some(Operational), Some(Damaged), Some(Damaged)] [2] 1
+returned 0
+[Some(Operational), Some(Damaged), Some(Damaged)] [2] 0
+[Some(Damaged), Some(Damaged)] [2] 0
+[Some(Damaged)] [2] 1
+[] [2] 2
+Returned 1
+[None, None, None, Some(Operational), Some(Damaged), Some(Damaged)] [1, 2] 0
+[None, None, Some(Operational), Some(Damaged), Some(Damaged)] [1, 2] 1
+[None, Some(Operational), Some(Damaged), Some(Damaged)] [2] 0
+[Some(Operational), Some(Damaged), Some(Damaged)] [2] 1
+returned 0
+[Some(Operational), Some(Damaged), Some(Damaged)] [2] 0
+[Some(Damaged), Some(Damaged)] [2] 0
+[Some(Damaged)] [2] 1
+[] [2] 2
+Returned 1
+[None, None, Some(Operational), Some(Damaged), Some(Damaged)] [1, 2] 0
+[None, Some(Operational), Some(Damaged), Some(Damaged)] [1, 2] 1
+[Some(Operational), Some(Damaged), Some(Damaged)] [2] 0
+[Some(Damaged), Some(Damaged)] [2] 0
+[Some(Damaged)] [2] 1
+[] [2] 2
+Returned 1
+[None, Some(Operational), Some(Damaged), Some(Damaged)] [1, 2] 0
+[Some(Operational), Some(Damaged), Some(Damaged)] [1, 2] 1
+[Some(Damaged), Some(Damaged)] [2] 0
+[Some(Damaged)] [2] 1
+[] [2] 2
+Returned 1
+[Some(Operational), Some(Damaged), Some(Damaged)] [1, 2] 0
+[Some(Damaged), Some(Damaged)] [1, 2] 0
+[Some(Damaged)] [1, 2] 1
+Returned 0
+5
+5
